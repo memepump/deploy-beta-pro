@@ -1,0 +1,22 @@
+{
+  "short_name": "MemePump",
+  "name": "MemePump",
+  "icons": [
+    {
+      "src": "./192px.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./512px.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "orientation": "portrait",
+  "display": "standalone",
+  "theme_color": "#b5449a",
+  "background_color": "#fff"
+}

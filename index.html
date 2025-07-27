@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Primary Meta Tags -->
+    <meta charset="UTF-8" />
+    <title>MemePump - #1 Polygon Token Launchpad | Create & Trade Meme Tokens</title>
+    <meta name="description" content="Launch your meme token instantly on Polygon with MemePump. No coding needed - create, trade, and grow your token with built-in liquidity and bonding curves." />
+    <meta name="keywords" content="Polygon token launchpad, create meme token, instant liquidity, bonding curve, POL tokens, crypto launchpad, decentralized token creation" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#8247E5" />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://memepump.pro/" />
+
+    <!-- Favicon & App Icons -->
+    <link rel="shortcut icon" href="./favicon.ico" />
+    <link rel="manifest" href="./manifest.json" />
+    <link rel="apple-touch-icon" href="./192px.png" />
+    <link rel="apple-touch-icon" href="./512px.png">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://memepump.pro/" />
+    <meta property="og:title" content="MemePump - #1 Polygon Token Launchpad for Meme Tokens" />
+    <meta property="og:description" content="Create your own meme token in minutes on Polygon with instant liquidity and bonding curves. No coding required!" />
+    <meta property="og:image" content="/og-image.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:site_name" content="MemePump" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://memepump.pro/" />
+    <meta name="twitter:title" content="MemePump - #1 Polygon Token Launchpad for Meme Tokens" />
+    <meta name="twitter:description" content="Launch your meme token instantly on Polygon with built-in liquidity and bonding curves. The easiest way to create crypto tokens!" />
+    <meta name="twitter:image" content="/twitter-card.jpg" />
+    <meta name="twitter:creator" content="@memepump" />
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "MemePump",
+      "url": "https://memepump.pro/",
+      "description": "Polygon token launchpad for creating meme tokens with instant liquidity",
+      "applicationCategory": "BlockchainApplication",
+      "operatingSystem": "Web",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "POL"
+      }
+    }
+    </script>
+
+    <!-- Preconnect to important third-party origins -->
+    <link rel="preconnect" href="https://polygon-mainnet.infura.io/v3/da2e357276404807a9934abcef4302f9" />
+    <link rel="preconnect" href="https://polygon-rpc.com" />
+    <link rel="preconnect" href="https://polygon-bor-rpc.publicnode.com" />
+     <script type="module" crossorigin src="./assets/index-BspWx7NZ.js"></script>
+     <link rel="modulepreload" crossorigin href="./assets/vendor-Daw4SczE.js">
+     <link rel="modulepreload" crossorigin href="./assets/wagmi-BtUZo7s6.js">
+     <link rel="stylesheet" crossorigin href="./assets/index-UizS3oHG.css">
+   </head>
+  <body>
+    <div id="root"></div>
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX');
+    </script>
+    <script>
+    const redirect = sessionStorage.redirect;
+    delete sessionStorage.redirect;
+    if (redirect && redirect != location.pathname) {
+      history.replaceState(null, null, redirect);
+      }
+    </script>
+  </body>
+</html>
